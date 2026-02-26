@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Works - LIKHIN CHANDRAN</title>
+    <meta name="description"
+        content="Explore our featured works including residential villas, commercial complexes, luxury interiors, and urban planning projects.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="works.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                    <rect x="5" y="15" width="10" height="20" fill="#C5A059" />
+                    <rect x="20" y="10" width="10" height="25" fill="#C5A059" />
+                    <rect x="35" y="5" width="0" height="30" fill="#C5A059" />
+                    <path d="M5 15 L15 5 L25 10 L35 5" stroke="#C5A059" stroke-width="2" />
+                </svg>
+            </div>
+            <div class="logo-text">
+                <h1>LIKHIN CHANDRAN</h1>
+                <p>Build with Trust</p>
+            </div>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <!-- Full Screen Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay">
+        <nav class="menu-nav">
+            <a href="index.html#home" class="menu-link">Home</a>
+            <a href="index.html#about" class="menu-link">About Us</a>
+            <a href="services.html" class="menu-link">Services</a>
+            <a href="index.html#portfolio" class="menu-link">Portfolio</a>
+            <a href="index.html#contact" class="menu-link">Contact</a>
+        </nav>
+    </div>
+
+    <!-- Works Page Content -->
+    <div class="works-page">
+        <!-- Sidebar Navigation -->
+        <aside class="works-sidebar">
+            <nav class="sidebar-nav">
+                <a href="#residential" class="sidebar-link active" data-work="residential">
+                    <span class="sidebar-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                    </span>
+                    <span class="sidebar-text">Residential Villa</span>
+                </a>
+                <a href="#commercial" class="sidebar-link" data-work="commercial">
+                    <span class="sidebar-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                            <line x1="3" y1="9" x2="21" y2="9"></line>
+                            <line x1="9" y1="21" x2="9" y2="9"></line>
+                        </svg>
+                    </span>
+                    <span class="sidebar-text">Commercial Complex</span>
+                </a>
+                <a href="#interior" class="sidebar-link" data-work="interior">
+                    <span class="sidebar-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="2" y="7" width="20" height="14" rx="2"></rect>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                        </svg>
+                    </span>
+                    <span class="sidebar-text">Luxury Interior</span>
+                </a>
+                <a href="#urban" class="sidebar-link" data-work="urban">
+                    <span class="sidebar-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span class="sidebar-text">Urban Planning</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="works-content">
+            <!-- Residential Villa Section -->
+            <section id="residential" class="work-section active">
+                <div class="work-header reveal-fade">
+                    <span class="work-tag">FEATURED PROJECT</span>
+                    <h1 class="work-title">Residential Villa</h1>
+                    <p class="work-subtitle">Modern Architecture</p>
+                </div>
+
+                <div class="work-description reveal-fade">
+                    <p>Experience the perfect blend of contemporary design and functional living spaces. Our residential
+                        villa projects showcase innovative architectural solutions that prioritize comfort, aesthetics,
+                        and sustainability.</p>
+                    <p>Each villa is meticulously designed to complement its surroundings while providing modern
+                        amenities and timeless elegance. From spacious living areas to thoughtfully planned outdoor
+                        spaces, every detail is crafted with precision.</p>
+                </div>
+
+                <div class="slideshow-container reveal-slide">
+                    <div class="slideshow">
+                        <div class="slide active">
+                            <img src="images/main3.png" alt="Residential Villa Design"
+                                onerror="this.style.background='linear-gradient(135deg, #667eea 0%, #764ba2 100%)'">
+                        </div>
+                        <div class="slide">
+                            <img src="images/villa-2.jpg" alt="Villa Interior View"
+                                onerror="this.style.background='linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'">
+                        </div>
+                        <div class="slide">
+                            <img src="images/villa-3.jpg" alt="Villa Exterior Design"
+                                onerror="this.style.background='linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)'">
+                        </div>
+                        <div class="slide">
+                            <img src="images/villa-4.jpg" alt="Villa Garden View"
+                                onerror="this.style.background='linear-gradient(135deg, #fa709a 0%, #fee140 100%)'">
+                        </div>
+                    </div>
+                    <button class="slide-btn prev" aria-label="Previous slide">‹</button>
+                    <button class="slide-btn next" aria-label="Next slide">›</button>
+                    <div class="slide-dots"></div>
+                </div>
+
+                <div class="work-details reveal-fade">
+                    <p>Our residential villas feature sustainable materials, energy-efficient systems, and smart home
+                        integration, ensuring that luxury meets responsibility. The open floor plans and large windows
+                        create bright, airy spaces that connect seamlessly with nature.</p>
+                </div>
+            </section>
+
+            <!-- Commercial Complex Section -->
+            <section id="commercial" class="work-section">
+                <div class="work-header reveal-fade">
+                    <span class="work-tag">FEATURED PROJECT</span>
+                    <h1 class="work-title">Commercial Complex</h1>
+                    <p class="work-subtitle">Contemporary Design</p>
+                </div>
+
+                <div class="work-description reveal-fade">
+                    <p>Our commercial complex designs are engineered to maximize functionality while creating impressive
+                        architectural statements. We understand the unique demands of commercial spaces and deliver
+                        solutions that drive business success.</p>
+                    <p>From retail centers to office buildings, each project balances aesthetic appeal with operational
+                        efficiency, creating environments that enhance productivity and customer experience.</p>
+                </div>
+
+                <div class="slideshow-container reveal-slide">
+                    <div class="slideshow">
+                        <div class="slide active">
+                            <img src="images/commercial-1.jpg" alt="Commercial Complex Exterior"
+                                onerror="this.style.background='linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'">
+                        </div>
+                        <div class="slide">
+                            <img src="images/commercial-2.jpg" alt="Commercial Interior"
+                                onerror="this.style.background='linear-gradient(135deg, #667eea 0%, #764ba2 100%)'">
+                        </div>
+                        <div class="slide">
+                            <img src="images/commercial-3.jpg" alt="Business Center Design"
+                                onerror="this.style.background='linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)'">
+                        </div>
+                        <div class="slide">
+                            <img src="images/commercial-4.jpg" alt="Modern Office Space"
+                                onerror="this.style.background='linear-gradient(135deg, #fa709a 0%, #fee140 100%)'">
+                        </div>
+                    </div>
+                    <button class="slide-btn prev" aria-label="Previous slide">‹</button>
+                    <button class="slide-btn next" aria-label="Next slide">›</button>
+                    <div class="slide-dots"></div>
+                </div>
+
+                <div class="work-details reveal-fade">
+                    <p>We incorporate modern building technologies, sustainable practices, and versatile layouts that
+                        can adapt to changing business needs, ensuring long-term value for our clients.</p>
+                </div>
+            </section>
+
+            <!-- Luxury Interior Section -->
+            <section id="interior" class="work-section">
+                <div class="work-header reveal-fade">
+                    <span class="work-tag">FEATURED PROJECT</span>
+                    <h1 class="work-title">Luxury Interior</h1>
+                    <p class="work-subtitle">Premium Finishes</p>
+                </div>
+
+                <div class="work-description reveal-fade">
+                    <p>Transform your spaces with our luxury interior design services. We create bespoke interiors that
+                        reflect your personality while maintaining the highest standards of comfort and elegance.</p>
+                    <p>Our design philosophy combines timeless aesthetics with contemporary trends, using premium
+                        materials and expert craftsmanship to deliver interiors that inspire and endure.</p>
+                </div>
+
+                <div class="slideshow-container reveal-slide">
+                    <div class="slideshow">
+                        <div class="slide active">
+                            <img src="images/interior-1.jpg" alt="Luxury Living Room"
+                                onerror="this.style.background='linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)'">
+                        </div>
+                        <div class="slide">
+                            <img src="images/interior-2.jpg" alt="Modern Bedroom Design"
+                                onerror="this.style.background='linear-gradient(135deg, #667eea 0%, #764ba2 100%)'">
+                        </div>
+                        <div class="slide">
+                            <img src="images/interior-3.jpg" alt="Contemporary Kitchen"
+                                onerror="this.style.background='linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'">
+                        </div>
+                        <div class="slide">
+                            <img src="images/interior-4.jpg" alt="Elegant Dining Space"
+                                onerror="this.style.background='linear-gradient(135deg, #fa709a 0%, #fee140 100%)'">
+                        </div>
+                    </div>
+                    <button class="slide-btn prev" aria-label="Previous slide">‹</button>
+                    <button class="slide-btn next" aria-label="Next slide">›</button>
+                    <div class="slide-dots"></div>
+                </div>
+
+                <div class="work-details reveal-fade">
+                    <p>From concept to completion, we manage every aspect of the interior design process, ensuring
+                        cohesive spaces that balance beauty, functionality, and your unique lifestyle requirements.</p>
+                </div>
+            </section>
+
+            <!-- Urban Planning Section -->
+            <section id="urban" class="work-section">
+                <div class="work-header reveal-fade">
+                    <span class="work-tag">FEATURED PROJECT</span>
+                    <h1 class="work-title">Urban Planning</h1>
+                    <p class="work-subtitle">Smart City Solutions</p>
+                </div>
+
+                <div class="work-description reveal-fade">
+                    <p>Shaping the future of urban living through innovative planning and sustainable development. Our
+                        urban planning projects create vibrant, livable communities that balance growth with
+                        environmental responsibility.</p>
+                    <p>We integrate smart city technologies, green spaces, and efficient infrastructure to design urban
+                        environments that enhance quality of life for all residents.</p>
+                </div>
+
+                <div class="slideshow-container reveal-slide">
+                    <div class="slideshow">
+                        <div class="slide active">
+                            <img src="images/urban-1.jpg" alt="Urban Development Plan"
+                                onerror="this.style.background='linear-gradient(135deg, #fa709a 0%, #fee140 100%)'">
+                        </div>
+                        <div class="slide">
+                            <img src="images/urban-2.jpg" alt="Smart City Infrastructure"
+                                onerror="this.style.background='linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)'">
+                        </div>
+                        <div class="slide">
+                            <img src="images/urban-3.jpg" alt="Community Planning"
+                                onerror="this.style.background='linear-gradient(135deg, #667eea 0%, #764ba2 100%)'">
+                        </div>
+                        <div class="slide">
+                            <img src="images/urban-4.jpg" alt="Sustainable Urban Design"
+                                onerror="this.style.background='linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'">
+                        </div>
+                    </div>
+                    <button class="slide-btn prev" aria-label="Previous slide">‹</button>
+                    <button class="slide-btn next" aria-label="Next slide">›</button>
+                    <div class="slide-dots"></div>
+                </div>
+
+                <div class="work-details reveal-fade">
+                    <p>Our comprehensive approach considers transportation, housing, recreation, and economic
+                        development to create cohesive urban ecosystems that thrive now and in the future.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <svg width="60" height="60" viewBox="0 0 60 60" fill="white">
+            <path
+                d="M30 15c-8.284 0-15 6.716-15 15 0 2.973.87 5.745 2.363 8.084L15 45l7.13-2.256A14.94 14.94 0 0030 45c8.284 0 15-6.716 15-15s-6.716-15-15-15zm0 2c7.18 0 13 5.82 13 13s-5.82 13-13 13a12.94 12.94 0 01-6.508-1.738l-4.63 1.465 1.528-4.493A12.94 12.94 0 0117 30c0-7.18 5.82-13 13-13z" />
+            <path
+                d="M24 25c0-.552.448-1 1-1h2c.552 0 1 .448 1 1v8c0 .552-.448 1-1 1h-2c-.552 0-1-.448-1-1v-8zm8 0c0-.552.448-1 1-1h2c.552 0 1 .448 1 1v8c0 .552-.448 1-1 1h-2c-.552 0-1-.448-1-1v-8z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+    <script src="works.js"></script>
+</body>
+
+</html>

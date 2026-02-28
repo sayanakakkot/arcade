@@ -1,9 +1,9 @@
 /* CSS Variables */
 :root {
-    --color-primary: #C5A059;
-    --color-dark: #1a1a1a;
-    --color-gray: #333;
-    --color-light-gray: #666;
+    --color-primary: #F5C518;
+    --color-dark: #1C1C1E;
+    --color-gray: #2E2E30;
+    --color-light-gray: #888888;
     --color-white: #ffffff;
     --font-primary: 'Poppins', sans-serif;
     --transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
@@ -52,7 +52,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(28, 28, 30, 0.85);
     backdrop-filter: blur(10px);
     transition: var(--transition);
 }
@@ -114,7 +114,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.98);
+    background: rgba(28, 28, 30, 0.98);
     z-index: 999;
     display: flex;
     align-items: center;
@@ -255,7 +255,7 @@ html {
 .hero-btn:hover {
     background: var(--color-primary);
     transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(197, 160, 89, 0.3);
+    box-shadow: 0 10px 30px rgba(245, 197, 24, 0.35);
 }
 
 .hero-indicators {
@@ -311,7 +311,7 @@ html {
 
 /* Services Section */
 .services {
-    background: #f8f8f8;
+    background: #F2F2F2;
     padding: 120px 0;
 }
 
@@ -339,7 +339,7 @@ html {
 
 .service-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 60px rgba(28, 28, 30, 0.12);
     border-color: var(--color-primary);
 }
 
@@ -470,12 +470,12 @@ html {
 .cta-btn:hover {
     background: var(--color-primary);
     transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(197, 160, 89, 0.3);
+    box-shadow: 0 10px 30px rgba(245, 197, 24, 0.35);
 }
 
 /* Core Values */
 .core-values {
-    background: #f8f8f8;
+    background: #F2F2F2;
     padding: 120px 0;
 }
 
@@ -498,7 +498,7 @@ html {
 
 .progress-bg {
     fill: none;
-    stroke: #ddd;
+    stroke: #D0D0D0;
     stroke-width: 8;
 }
 
@@ -666,7 +666,7 @@ html {
 }
 
 .newsletter-form button:hover {
-    background: #d4b06a;
+    background: #E8B800;
 }
 
 .footer-bottom {

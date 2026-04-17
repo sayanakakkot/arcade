@@ -254,4 +254,20 @@ window.addEventListener('load', () => {
     animateStats();
 });
 
+// Portfolio Slideshow - auto-cycle images in Featured Works cards
+const portfolioSlideshows = document.querySelectorAll('.portfolio-slideshow');
+
+portfolioSlideshows.forEach((slideshow, index) => {
+    const slides = slideshow.querySelectorAll('.portfolio-slide');
+    if (slides.length <= 1) return;
+
+    let currentSlide = 0;
+
+    setInterval(() => {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add('active');
+    }, 3000 + (index * 500)); // Stagger each card's timing slightly
+});
+
 console.log('Website loaded successfully!');
